@@ -116,9 +116,9 @@ https://drive.google.com/drive/folders/190xqN7H3Hu5s7RepFfgblrE3AgBuV27P?usp=sha
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Aleena Dominic: backend,ml training
+-Saranya S: documentation & frontend
+- Rosmi Reji: documentation & frontend 
 
 ---
 Made with ❤️ at TinkerHub
