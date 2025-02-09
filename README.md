@@ -11,7 +11,7 @@
 - Member 3: Rosmi Reji - Naipunnya college of management and information technology,Pongam
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://github.com/aleenadominic20/tink-her-hack-3-temp
 
 ### Project Description
 We created the frontend using simple HTML and backend using Python.We used the Flask for enabling the frontend to send data and receive predictions.The users can input the set of values like age,gender,cholestrol level etc and the model predicts whether the inputs indicate heart attack or not.
