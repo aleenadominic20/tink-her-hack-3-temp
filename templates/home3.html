@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Attack Risk Result</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .result-container {
+            width: 80%;
+            max-width: 700px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #ffcc00;
+        }
+        p {
+            font-size: 18px;
+        }
+        .risk-level {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .no-heartattack { background: green; }
+        .heartattack { background: red; }
+        .suggestion {
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        .doctor-advice {
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="result-container">
+        <h2>Heart Attack Risk Assessment</h2>
+        <p>Based on your input, your heart attack risk is:</p>
+        <p id="risk-level" class="risk-level">No HeartAttack</p>
+        <p class="suggestion" id="suggestion">Maintain a healthy lifestyle and consult a doctor if needed.</p>
+        <p class="doctor-advice" id="doctor-advice"></p>
+        <a href="heartattack.html" class="btn">Try Again</a>
+    </div>
+
+    <script>
+        // Define risk levels
+        const riskLevels = ["No HeartAttack", "HeartAttack"];
+        const suggestions = {
+            "No HeartAttack": "✅ Keep up the healthy habits! Exercise regularly, eat a balanced diet, and avoid smoking.",
+            "HeartAttack": "🚨 Immediate medical attention is recommended! Consult a cardiologist for further evaluation."
+        };
+
+        const doctorAdvice = {
+            "No HeartAttack": "✅ No immediate need to consult a doctor, but routine check-ups are advised.",
+            "HeartAttack": "🚨 Urgent medical consultation is needed! Schedule an appointment with a cardiologist as soon as possible."
+        };
+
+        // Background images for risk levels
+        const backgroundImages = {
+            "No HeartAttack": "url('https://etvbharatimages.akamaized.net/etvbharat/prod-images/29-04-2024/1200-675-21341236-thumbnail-16x9-jpg.jpg?imwidth=1200')",
+            "HeartAttack": "url('https://sa1s3optim.patientpop.com/assets/images/provider/photos/2762326.jpg')"
+        };
+
+        // Randomly select a risk level for demo (replace with actual calculation)
+        let randomRisk = riskLevels[Math.floor(Math.random() * riskLevels.length)];
+        let riskElement = document.getElementById("risk-level");
+
+        // Set risk level text & color
+        riskElement.innerText = randomRisk;
+        riskElement.classList.add(randomRisk.toLowerCase().replace(" ", "-"));
+
+        // Set suggestions
+        document.getElementById("suggestion").innerText = suggestions[randomRisk];
+        document.getElementById("doctor-advice").innerText = doctorAdvice[randomRisk];
+
+        // Set background image based on risk level
+        document.body.style.backgroundImage = backgroundImages[randomRisk];
+    </script>
+
+</body>
+</html>
