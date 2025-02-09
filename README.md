@@ -1,39 +1,48 @@
-# [Project Name] 🎯
+# Heart attack Prediction 🎯
 
 
-## Basic Details
-### Team Name: [Name]
+## We have trained and tested a ML Model that trains on a set of data.We created the frontend using simple HTML and backend using Python.We used the Flask for enabling the frontend to send data and receive predictions.The users can input the set of values like age,gender,cholestrol level etc and the model predicts whether the inputs indicate heart attack or not.
+### Team Name: Nims
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Aleena Dominic - Naipunnya college of management and information technology,Pongam
+- Member 2: Saranya S - Naipunnya college of management and information technology,Pongam
+- Member 3: Rosmi Reji - Naipunnya college of management and information technology,Pongam
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+We created the frontend using simple HTML and backend using Python.We used the Flask for enabling the frontend to send data and receive predictions.The users can input the set of values like age,gender,cholestrol level etc and the model predicts whether the inputs indicate heart attack or not.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+We are aiming to support medical staffs in easily predicting cases for heart attack by a set of valid medical conditions.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+We look forward to solve it using a ML Model that has been trained with various dataset inputs so that it get trained to predict our inputs correctly.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+-  Development Environment
+   VS Code – For writing and managing code
+   Google Colab – For training the machine learning model
+- Programming Languages & Libraries
+   Python – Main programming language
+   Flask – Web framework for backend development
+   HTML, CSS, Bootstrap – Frontend UI design
+- Machine Learning & Data Processing
+   Scikit-Learn (sklearn) – Used for training the Random Forest model
+   Pandas – Data handling and preprocessing
+   NumPy – Numerical operations
+   Matplotlib & Seaborn – Data visualization (for outliers, feature importance, etc.)
+   Joblib – Saving and loading the trained model
+   StandardScaler (from sklearn.preprocessing) – Feature scaling
+- GitHub – Hosting code repository
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- nil
 
 ### Implementation
 For Software:
@@ -44,10 +53,26 @@ For Software:
 [commands]
 
 ### Project Documentation
-For Software:
+For Software:For Software:
+-  Development Environment
+   VS Code – For writing and managing code
+   Google Colab – For training the machine learning model
+- Programming Languages & Libraries
+   Python – Main programming language
+   Flask – Web framework for backend development
+   HTML, CSS, Bootstrap – Frontend UI design
+- Machine Learning & Data Processing
+   Scikit-Learn (sklearn) – Used for training the Random Forest model
+   Pandas – Data handling and preprocessing
+   NumPy – Numerical operations
+   Matplotlib & Seaborn – Data visualization (for outliers, feature importance, etc.)
+   Joblib – Saving and loading the trained model
+   StandardScaler (from sklearn.preprocessing) – Feature scaling
+- GitHub – Hosting code repository
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
+
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
@@ -84,7 +109,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+https://drive.google.com/drive/folders/190xqN7H3Hu5s7RepFfgblrE3AgBuV27P?usp=sharing
 *Explain what the video demonstrates*
 
 # Additional Demos
